@@ -1,27 +1,27 @@
 (function () {
     let count = 0;
-    const display = document.getElementById('counter-display');
+    const display = document.getElementById('countdisplay');
   
     function updateDisplay() {
       display.textContent = count;
     }
   
-    document.getElementById('increase-btn').addEventListener('click', () => {
+    document.getElementById('increasebtn').addEventListener('click', () => {
       count++;
       updateDisplay();
     });
   
-    document.getElementById('decrease-btn').addEventListener('click', () => {
+    document.getElementById('decreasebtn').addEventListener('click', () => {
       if (count > 0) count--;
       updateDisplay();
     });
   
-    document.getElementById('reset-btn').addEventListener('click', () => {
+    document.getElementById('resetbtn').addEventListener('click', () => {
       count = 0;
       updateDisplay();
     });
   
-    document.getElementById('double-btn').addEventListener('click', () => {
+    document.getElementById('doublebtn').addEventListener('click', () => {
       count *= 2;
       updateDisplay();
     });
