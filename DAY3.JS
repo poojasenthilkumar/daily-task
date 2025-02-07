@@ -20,7 +20,8 @@ function counter() {
 const increment = counter();
 increment(); // 1
 increment(); // 2
-increment(); // 3
+increment(); // 3 
+
 
 
 // example 2
