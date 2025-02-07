@@ -20,7 +20,8 @@
     });
   
     document.getElementById('decreasebtn').addEventListener('click', () => {
-      if (count > 0) count--;
+      if (count > 0) 
+      count--;
       updateDisplay();
     });
   
@@ -33,7 +34,6 @@
       count *= 2;
       updateDisplay();
     });
-  
     updateDisplay();
   })();
   
@@ -61,6 +61,7 @@
       count *= 2;
       updateDisplay();
     }
+    
     updateDisplay();
     return {                       // Return an object containing public methods
       increase,
@@ -78,3 +79,7 @@
   /* Here the private varibale is count and it can be accessible within IIFE function .
   in IIFE function we have inner functions like updateDisplay, increase, decrease etc.. 
   every function can able to access the private varible count due to the closure concept */
+
+
+
+  
