@@ -74,4 +74,3 @@ function count1()
 
 // returns the counter every second 1 2 3 4 5 
 // but after 5 the count will not increments due to clearInterval() method
-//test line 123
