@@ -24,8 +24,8 @@ let user2 = {
     }
 }
 user2.logout()
-*/
 
+*/
 //now insted of creating a same structure of multiple objects -- we create a class 
 
 class User {
